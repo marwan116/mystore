@@ -14,7 +14,7 @@ group :production do
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
-end
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -53,7 +53,3 @@ gem 'spring',        group: :development
 gem 'spree', '2.3.4'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
-
-group :doc do
-  gem 'sdoc', require: false
-end
